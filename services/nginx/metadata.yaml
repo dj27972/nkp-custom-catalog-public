@@ -1,0 +1,8 @@
+displayName: NGINX ingress 
+description: Office nginx-ingress helm
+category:
+  - utilities
+overview: >
+   # Overview
+   A ingress that runs for demonstrative purposes
+icon:
