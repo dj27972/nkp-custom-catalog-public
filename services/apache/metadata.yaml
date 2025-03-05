@@ -1,0 +1,8 @@
+displayName: Apache Web Server
+description: Apache Web Server Bitnami Helm Package
+category: 
+  - utilities
+overview: >
+   # Overview
+   A webserver that runs for demonstrative purposes
+icon:
