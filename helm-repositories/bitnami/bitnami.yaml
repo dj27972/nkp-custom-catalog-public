@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: github.com.bitnami-helm-releases
+  name: bitnami.com.charts.bitnami-helm-releases
   namespace: ${workspaceNamespace}
   labels:
     kommander.d2iq.io/dkp-airgapped: supported
 spec:
-  url: "${helmMirrorURL:=https://github.com/bitnami/charts}"
+  url: "${helmMirrorURL:=https://charts.bitnami.com/bitnami}"
   interval: 10m
